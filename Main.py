@@ -42,4 +42,4 @@ model.save('tfmodel')
 
 
 del model
-model = load_model('tfmodel');
+model = load_model('tfmodel')
