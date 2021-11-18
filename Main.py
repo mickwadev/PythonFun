@@ -39,3 +39,7 @@ fdsf = accuracy_score(y_test, y_hat)
 
 print(type(fdsf)) # <class 'numpy.float64'>
 model.save('tfmodel')
+
+
+del model
+model = load_model('tfmodel');
